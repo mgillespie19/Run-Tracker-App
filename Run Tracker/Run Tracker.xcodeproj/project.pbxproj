@@ -16,6 +16,17 @@
 		F68C69AE23D1174D00FB3B5D /* Run_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69AD23D1174D00FB3B5D /* Run_TrackerTests.swift */; };
 		F68C69B923D1174E00FB3B5D /* Run_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69B823D1174E00FB3B5D /* Run_TrackerUITests.swift */; };
 		F68C69CA23D117FA00FB3B5D /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69C923D117FA00FB3B5D /* RootTabView.swift */; };
+		F68C69D123D11AEE00FB3B5D /* FeedRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69D023D11AED00FB3B5D /* FeedRootView.swift */; };
+		F68C69D323D11B2800FB3B5D /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69D223D11B2800FB3B5D /* FeedViewModel.swift */; };
+		F68C69D523D11B3F00FB3B5D /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69D423D11B3F00FB3B5D /* EventsViewModel.swift */; };
+		F68C69D723D11B5200FB3B5D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69D623D11B5200FB3B5D /* DashboardViewModel.swift */; };
+		F68C69D923D11B6300FB3B5D /* NewWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69D823D11B6300FB3B5D /* NewWorkoutViewModel.swift */; };
+		F68C69DB23D11B6F00FB3B5D /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69DA23D11B6F00FB3B5D /* ExploreViewModel.swift */; };
+		F68C69DF23D11BE400FB3B5D /* ExploreRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69DE23D11BE400FB3B5D /* ExploreRootView.swift */; };
+		F68C69E123D11C1C00FB3B5D /* NewWorkoutRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E023D11C1C00FB3B5D /* NewWorkoutRootView.swift */; };
+		F68C69E323D11C3B00FB3B5D /* DashboardRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E223D11C3B00FB3B5D /* DashboardRootView.swift */; };
+		F68C69E523D11C6400FB3B5D /* EventsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E423D11C6400FB3B5D /* EventsRootView.swift */; };
+		F68C69E723D11D8D00FB3B5D /* NewWorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		F68C69B823D1174E00FB3B5D /* Run_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_TrackerUITests.swift; sourceTree = "<group>"; };
 		F68C69BA23D1174E00FB3B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F68C69C923D117FA00FB3B5D /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F68C69D023D11AED00FB3B5D /* FeedRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRootView.swift; sourceTree = "<group>"; };
+		F68C69D223D11B2800FB3B5D /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		F68C69D423D11B3F00FB3B5D /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		F68C69D623D11B5200FB3B5D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F68C69D823D11B6300FB3B5D /* NewWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewModel.swift; sourceTree = "<group>"; };
+		F68C69DA23D11B6F00FB3B5D /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		F68C69DE23D11BE400FB3B5D /* ExploreRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRootView.swift; sourceTree = "<group>"; };
+		F68C69E023D11C1C00FB3B5D /* NewWorkoutRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutRootView.swift; sourceTree = "<group>"; };
+		F68C69E223D11C3B00FB3B5D /* DashboardRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRootView.swift; sourceTree = "<group>"; };
+		F68C69E423D11C6400FB3B5D /* EventsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRootView.swift; sourceTree = "<group>"; };
+		F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				F68C69C923D117FA00FB3B5D /* RootTabView.swift */,
+				F68C69CF23D11ADF00FB3B5D /* Feed */,
+				F68C69CE23D11ACC00FB3B5D /* Explore */,
+				F68C69CD23D11ABE00FB3B5D /* New Workout */,
+				F68C69CC23D11AB300FB3B5D /* Dashboard */,
+				F68C69CB23D11AAC00FB3B5D /* Events */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,8 +186,54 @@
 		F68C69C823D117B900FB3B5D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F68C69D223D11B2800FB3B5D /* FeedViewModel.swift */,
+				F68C69DA23D11B6F00FB3B5D /* ExploreViewModel.swift */,
+				F68C69D823D11B6300FB3B5D /* NewWorkoutViewModel.swift */,
+				F68C69D623D11B5200FB3B5D /* DashboardViewModel.swift */,
+				F68C69D423D11B3F00FB3B5D /* EventsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F68C69CB23D11AAC00FB3B5D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69E423D11C6400FB3B5D /* EventsRootView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		F68C69CC23D11AB300FB3B5D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69E223D11C3B00FB3B5D /* DashboardRootView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F68C69CD23D11ABE00FB3B5D /* New Workout */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69E023D11C1C00FB3B5D /* NewWorkoutRootView.swift */,
+				F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */,
+			);
+			path = "New Workout";
+			sourceTree = "<group>";
+		};
+		F68C69CE23D11ACC00FB3B5D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69DE23D11BE400FB3B5D /* ExploreRootView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		F68C69CF23D11ADF00FB3B5D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69D023D11AED00FB3B5D /* FeedRootView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +367,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68C69D123D11AEE00FB3B5D /* FeedRootView.swift in Sources */,
+				F68C69E523D11C6400FB3B5D /* EventsRootView.swift in Sources */,
 				F68C699923D1174C00FB3B5D /* Run_Tracker.xcdatamodeld in Sources */,
+				F68C69D323D11B2800FB3B5D /* FeedViewModel.swift in Sources */,
+				F68C69DF23D11BE400FB3B5D /* ExploreRootView.swift in Sources */,
 				F68C699423D1174C00FB3B5D /* AppDelegate.swift in Sources */,
+				F68C69D523D11B3F00FB3B5D /* EventsViewModel.swift in Sources */,
+				F68C69E723D11D8D00FB3B5D /* NewWorkoutButton.swift in Sources */,
 				F68C69CA23D117FA00FB3B5D /* RootTabView.swift in Sources */,
+				F68C69E123D11C1C00FB3B5D /* NewWorkoutRootView.swift in Sources */,
+				F68C69DB23D11B6F00FB3B5D /* ExploreViewModel.swift in Sources */,
 				F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */,
+				F68C69D723D11B5200FB3B5D /* DashboardViewModel.swift in Sources */,
+				F68C69D923D11B6300FB3B5D /* NewWorkoutViewModel.swift in Sources */,
+				F68C69E323D11C3B00FB3B5D /* DashboardRootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
