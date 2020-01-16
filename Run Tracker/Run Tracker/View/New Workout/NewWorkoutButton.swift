@@ -17,12 +17,18 @@ struct NewWorkoutButton: View {
             Button(action: {
                 self.displayingExplore.toggle()
             }) {
-                Image(systemName: "plus")
-                    .padding()
-                    .frame(width: 100, height: 55)
-                    .foregroundColor(Color.white)
+                ZStack {
+                    Rectangle()
+                        .foregroundColor(Color("Pink"))
+                        .frame(width: 100, height: 55)
+                    Image(systemName: "plus")
+                        .resizable()
+                        .padding()
+                        .frame(width: 50, height: 50)
+                        .foregroundColor(Color.white)
+                }
+                
             }
-            .background(Color("Pink"))
             .cornerRadius(10)
             .shadow(radius: 4)
         }.sheet(isPresented: $displayingExplore, content: {
