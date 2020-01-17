@@ -11,8 +11,20 @@ import SwiftUI
 struct FeedRootView: View {
     var viewModel: FeedViewModel
     
+    @State var friendsTabSelected = true
+        
     var body: some View {
-        Text("Feed")
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                FeedFilterView(friendsTabSelected: $friendsTabSelected)
+                
+                ForEach((1...10), id: \.self) {
+                    Text("Post \($0)")
+                }
+                
+            }.navigationBarTitle("Feed")
+            
+        }
     }
 }
 
