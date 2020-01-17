@@ -14,6 +14,10 @@ struct FeedFilterView: View {
     var body: some View {
         ZStack(alignment: .leading) {
             Rectangle()
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width, height: 70)
+            
+            Rectangle()
                 .foregroundColor(Color("VeryLightGrey"))
                 .frame(width: UIScreen.main.bounds.width * 0.44, height: 40)
                 .cornerRadius(7)

@@ -16,15 +16,16 @@ struct FeedRootView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
-                FeedFilterView(friendsTabSelected: $friendsTabSelected)
-                
-                ForEach((1...10), id: \.self) {
-//                    Text("Post \($0)")
-                    FeedPostView(profilePic: UIImage(named: "BlankProfilePic")!, userName: "user_name", postContent: "Post number \($0)", orgName: "team name")
+                VStack {
+                    FeedFilterView(friendsTabSelected: $friendsTabSelected)
+                                    
+                    ForEach((1...10), id: \.self) {
+                        FeedPostView(profilePic: UIImage(named: "BlankProfilePic")!, userName: "user_name", postContent: "Post number \($0)", orgName: "team name")
+                    }
                 }
-                
-            }.navigationBarTitle("Feed")
-            
+                .navigationBarTitle("Feed")
+                .background(Color("VeryLightGrey"))
+            }          
         }
     }
 }

@@ -44,6 +44,8 @@ struct FeedPostView: View {
             .padding(.trailing)
             
             Divider()
+                .padding(.leading)
+                .padding(.trailing)
             
             Text(self.postContent)
                 .font(.body)
