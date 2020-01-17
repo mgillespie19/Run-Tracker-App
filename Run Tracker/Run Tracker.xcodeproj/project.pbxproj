@@ -28,6 +28,10 @@
 		F68C69E523D11C6400FB3B5D /* EventsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E423D11C6400FB3B5D /* EventsRootView.swift */; };
 		F68C69E723D11D8D00FB3B5D /* NewWorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */; };
 		F68C69EA23D2206B00FB3B5D /* FeedFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69E923D2206B00FB3B5D /* FeedFilterView.swift */; };
+		F68C69EC23D223C600FB3B5D /* FeedPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69EB23D223C600FB3B5D /* FeedPostView.swift */; };
+		F68C69F123D2241D00FB3B5D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69F023D2241D00FB3B5D /* ProfileView.swift */; };
+		F68C69F323D2245800FB3B5D /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69F223D2245800FB3B5D /* ProfileButton.swift */; };
+		F68C69F523D2247B00FB3B5D /* UpdateProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C69F423D2247B00FB3B5D /* UpdateProfilePictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,10 @@
 		F68C69E423D11C6400FB3B5D /* EventsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRootView.swift; sourceTree = "<group>"; };
 		F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutButton.swift; sourceTree = "<group>"; };
 		F68C69E923D2206B00FB3B5D /* FeedFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFilterView.swift; sourceTree = "<group>"; };
+		F68C69EB23D223C600FB3B5D /* FeedPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostView.swift; sourceTree = "<group>"; };
+		F68C69F023D2241D00FB3B5D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F68C69F223D2245800FB3B5D /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
+		F68C69F423D2247B00FB3B5D /* UpdateProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfilePictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +243,7 @@
 			children = (
 				F68C69D023D11AED00FB3B5D /* FeedRootView.swift */,
 				F68C69E923D2206B00FB3B5D /* FeedFilterView.swift */,
+				F68C69EB23D223C600FB3B5D /* FeedPostView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -242,9 +251,20 @@
 		F68C69E823D125DC00FB3B5D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				F68C69EF23D2241200FB3B5D /* Profile */,
 				F68C69E623D11D8D00FB3B5D /* NewWorkoutButton.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		F68C69EF23D2241200FB3B5D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69F023D2241D00FB3B5D /* ProfileView.swift */,
+				F68C69F223D2245800FB3B5D /* ProfileButton.swift */,
+				F68C69F423D2247B00FB3B5D /* UpdateProfilePictureView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,16 +402,20 @@
 				F68C69E523D11C6400FB3B5D /* EventsRootView.swift in Sources */,
 				F68C699923D1174C00FB3B5D /* Run_Tracker.xcdatamodeld in Sources */,
 				F68C69D323D11B2800FB3B5D /* FeedViewModel.swift in Sources */,
+				F68C69F323D2245800FB3B5D /* ProfileButton.swift in Sources */,
 				F68C69EA23D2206B00FB3B5D /* FeedFilterView.swift in Sources */,
 				F68C69DF23D11BE400FB3B5D /* ExploreRootView.swift in Sources */,
 				F68C699423D1174C00FB3B5D /* AppDelegate.swift in Sources */,
+				F68C69F523D2247B00FB3B5D /* UpdateProfilePictureView.swift in Sources */,
 				F68C69D523D11B3F00FB3B5D /* EventsViewModel.swift in Sources */,
 				F68C69E723D11D8D00FB3B5D /* NewWorkoutButton.swift in Sources */,
 				F68C69CA23D117FA00FB3B5D /* RootTabView.swift in Sources */,
+				F68C69F123D2241D00FB3B5D /* ProfileView.swift in Sources */,
 				F68C69E123D11C1C00FB3B5D /* NewWorkoutRootView.swift in Sources */,
 				F68C69DB23D11B6F00FB3B5D /* ExploreViewModel.swift in Sources */,
 				F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */,
 				F68C69D723D11B5200FB3B5D /* DashboardViewModel.swift in Sources */,
+				F68C69EC23D223C600FB3B5D /* FeedPostView.swift in Sources */,
 				F68C69D923D11B6300FB3B5D /* NewWorkoutViewModel.swift in Sources */,
 				F68C69E323D11C3B00FB3B5D /* DashboardRootView.swift in Sources */,
 			);

@@ -20,15 +20,15 @@ struct RootTabView: View {
                 }.tag(1)
                 ExploreRootView(viewModel: ExploreViewModel()).tabItem {
                     Text("Explore")
-                    Image(systemName: "person.3")
+                    Image(systemName: "magnifyingglass")
                 }.tag(2)
                 NewWorkoutRootView(viewModel: NewWorkoutViewModel()).tabItem {
                     Text("")
-                    Image("explore")
+                    Image(systemName: "plus")
                 }.tag(3)
                 DashboardRootView(viewModel: DashboardViewModel()).tabItem {
                     Text("Dashboard")
-                    Image(systemName: "map")
+                    Image(systemName: "gauge")
                 }.tag(4)
                 EventsRootView(viewModel: EventsViewModel()).tabItem {
                     Text("Events")

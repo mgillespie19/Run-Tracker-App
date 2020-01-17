@@ -19,7 +19,8 @@ struct FeedRootView: View {
                 FeedFilterView(friendsTabSelected: $friendsTabSelected)
                 
                 ForEach((1...10), id: \.self) {
-                    Text("Post \($0)")
+//                    Text("Post \($0)")
+                    FeedPostView(profilePic: UIImage(named: "BlankProfilePic")!, userName: "user_name", postContent: "Post number \($0)", orgName: "team name")
                 }
                 
             }.navigationBarTitle("Feed")
