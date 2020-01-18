@@ -18,7 +18,7 @@ struct FeedRootView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
                     FeedFilterView(friendsTabSelected: $friendsTabSelected)
-                                    
+                    
                     ForEach((1...10), id: \.self) {
                         FeedPostView(profilePic: UIImage(named: "BlankProfilePic")!, userName: "user_name", postContent: "Post number \($0)", orgName: "team name")
                     }

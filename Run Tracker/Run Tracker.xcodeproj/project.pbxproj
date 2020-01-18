@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F654960823D35B51002F8705 /* FeedPostRunDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960723D35B51002F8705 /* FeedPostRunDetails.swift */; };
 		F68C699423D1174C00FB3B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C699323D1174C00FB3B5D /* AppDelegate.swift */; };
 		F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C699523D1174C00FB3B5D /* SceneDelegate.swift */; };
 		F68C699923D1174C00FB3B5D /* Run_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F68C699723D1174C00FB3B5D /* Run_Tracker.xcdatamodeld */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F654960723D35B51002F8705 /* FeedPostRunDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostRunDetails.swift; sourceTree = "<group>"; };
 		F68C699023D1174C00FB3B5D /* Run Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68C699323D1174C00FB3B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F68C699523D1174C00FB3B5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F654960623D35AD3002F8705 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F68C69E923D2206B00FB3B5D /* FeedFilterView.swift */,
+				F654960723D35B51002F8705 /* FeedPostRunDetails.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F68C698723D1174C00FB3B5D = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +191,6 @@
 				F68C69CF23D11ADF00FB3B5D /* Feed */,
 				F68C69CE23D11ACC00FB3B5D /* Explore */,
 				F68C69CD23D11ABE00FB3B5D /* New Workout */,
-				F68C69CC23D11AB300FB3B5D /* Dashboard */,
 				F68C69CB23D11AAC00FB3B5D /* Events */,
 				F68C69E823D125DC00FB3B5D /* General */,
 			);
@@ -233,6 +243,7 @@
 		F68C69CE23D11ACC00FB3B5D /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				F68C69CC23D11AB300FB3B5D /* Dashboard */,
 				F68C69DE23D11BE400FB3B5D /* ExploreRootView.swift */,
 			);
 			path = Explore;
@@ -242,8 +253,8 @@
 			isa = PBXGroup;
 			children = (
 				F68C69D023D11AED00FB3B5D /* FeedRootView.swift */,
-				F68C69E923D2206B00FB3B5D /* FeedFilterView.swift */,
 				F68C69EB23D223C600FB3B5D /* FeedPostView.swift */,
+				F654960623D35AD3002F8705 /* Components */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -413,6 +424,7 @@
 				F68C69F123D2241D00FB3B5D /* ProfileView.swift in Sources */,
 				F68C69E123D11C1C00FB3B5D /* NewWorkoutRootView.swift in Sources */,
 				F68C69DB23D11B6F00FB3B5D /* ExploreViewModel.swift in Sources */,
+				F654960823D35B51002F8705 /* FeedPostRunDetails.swift in Sources */,
 				F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */,
 				F68C69D723D11B5200FB3B5D /* DashboardViewModel.swift in Sources */,
 				F68C69EC23D223C600FB3B5D /* FeedPostView.swift in Sources */,

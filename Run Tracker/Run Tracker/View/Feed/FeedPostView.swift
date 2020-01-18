@@ -49,7 +49,14 @@ struct FeedPostView: View {
             
             Text(self.postContent)
                 .font(.body)
-                .padding()
+                .padding(.leading)
+            
+            ZStack {
+                FeedPostRunDetails()
+            }
+            .frame(width: UIScreen.main.bounds.width)
+            .padding(.bottom)
+
         }
         .background(Color.white)
         .sheet(isPresented: $showingProfileView, onDismiss: {
@@ -58,12 +65,11 @@ struct FeedPostView: View {
         }, content: {
             ProfileView()
         })
-            .padding(.bottom)
     }
 }
 
 struct FeedPostView_Previews: PreviewProvider {
     static var previews: some View {
-        FeedPostView(profilePic: UIImage(named: "Profile Pic")!, userName: "Max Gillespie", postContent: "this is an example of a post you might see in your feed!", orgName: "org name")
+        FeedPostView(profilePic: UIImage(named: "BlankProfilePic")!, userName: "Max Gillespie", postContent: "this is an example of a post you might see in your feed!", orgName: "org name")
     }
 }
