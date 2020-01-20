@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F654960823D35B51002F8705 /* FeedPostRunDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960723D35B51002F8705 /* FeedPostRunDetails.swift */; };
+		F654960A23D6057D002F8705 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960923D6057D002F8705 /* SampleData.swift */; };
+		F654960C23D605F9002F8705 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960B23D605F9002F8705 /* FeedItem.swift */; };
+		F654960E23D6067D002F8705 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960D23D6067D002F8705 /* Activity.swift */; };
+		F654961023D606F7002F8705 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654960F23D606F7002F8705 /* Comment.swift */; };
 		F68C699423D1174C00FB3B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C699323D1174C00FB3B5D /* AppDelegate.swift */; };
 		F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C699523D1174C00FB3B5D /* SceneDelegate.swift */; };
 		F68C699923D1174C00FB3B5D /* Run_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F68C699723D1174C00FB3B5D /* Run_Tracker.xcdatamodeld */; };
@@ -54,6 +58,10 @@
 
 /* Begin PBXFileReference section */
 		F654960723D35B51002F8705 /* FeedPostRunDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostRunDetails.swift; sourceTree = "<group>"; };
+		F654960923D6057D002F8705 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		F654960B23D605F9002F8705 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		F654960D23D6067D002F8705 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		F654960F23D606F7002F8705 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		F68C699023D1174C00FB3B5D /* Run Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68C699323D1174C00FB3B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F68C699523D1174C00FB3B5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +208,10 @@
 		F68C69C723D117B500FB3B5D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F654960923D6057D002F8705 /* SampleData.swift */,
+				F654960B23D605F9002F8705 /* FeedItem.swift */,
+				F654960D23D6067D002F8705 /* Activity.swift */,
+				F654960F23D606F7002F8705 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -415,8 +427,11 @@
 				F68C69D323D11B2800FB3B5D /* FeedViewModel.swift in Sources */,
 				F68C69F323D2245800FB3B5D /* ProfileButton.swift in Sources */,
 				F68C69EA23D2206B00FB3B5D /* FeedFilterView.swift in Sources */,
+				F654960E23D6067D002F8705 /* Activity.swift in Sources */,
+				F654960C23D605F9002F8705 /* FeedItem.swift in Sources */,
 				F68C69DF23D11BE400FB3B5D /* ExploreRootView.swift in Sources */,
 				F68C699423D1174C00FB3B5D /* AppDelegate.swift in Sources */,
+				F654961023D606F7002F8705 /* Comment.swift in Sources */,
 				F68C69F523D2247B00FB3B5D /* UpdateProfilePictureView.swift in Sources */,
 				F68C69D523D11B3F00FB3B5D /* EventsViewModel.swift in Sources */,
 				F68C69E723D11D8D00FB3B5D /* NewWorkoutButton.swift in Sources */,
@@ -425,6 +440,7 @@
 				F68C69E123D11C1C00FB3B5D /* NewWorkoutRootView.swift in Sources */,
 				F68C69DB23D11B6F00FB3B5D /* ExploreViewModel.swift in Sources */,
 				F654960823D35B51002F8705 /* FeedPostRunDetails.swift in Sources */,
+				F654960A23D6057D002F8705 /* SampleData.swift in Sources */,
 				F68C699623D1174C00FB3B5D /* SceneDelegate.swift in Sources */,
 				F68C69D723D11B5200FB3B5D /* DashboardViewModel.swift in Sources */,
 				F68C69EC23D223C600FB3B5D /* FeedPostView.swift in Sources */,
